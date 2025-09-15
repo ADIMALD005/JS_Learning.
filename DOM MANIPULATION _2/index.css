@@ -1,0 +1,40 @@
+.main-class{
+    font-size: large;
+    padding: 2px;
+    border: 2px solid red;
+    background-color: pink;
+    border-radius: 5px;
+}
+
+.secondary-class{
+    font-size: large;
+    padding: 2px;
+    border: 2px solid green;
+    background-color: teal;
+    border-radius: 5px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.action {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+li.complete {
+    text-decoration: line-through;
+}

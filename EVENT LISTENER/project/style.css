@@ -1,0 +1,10 @@
+.answer.show{
+    display: block;
+}
+
+#first,#second,#third{
+    background: blue;
+    width: 100%;
+    height: 50px;
+    display: grid;
+}
